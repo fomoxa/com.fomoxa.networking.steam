@@ -1,0 +1,30 @@
+{
+    "name": "Fomoxa.Unity.Steam",
+    "rootNamespace": "Fomoxa.Unity.Steam",
+    "references": [
+        "Fomoxa.Unity",
+        "Fomoxa.Networking",
+        "Fomoxa.Networking.Steam",
+        "com.rlabrecque.steamworks.net"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Fomoxa.Net.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "FOMOXA_STEAMWORKS_NET",
+        "UNITY_STANDALONE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.rlabrecque.steamworks.net",
+            "expression": "2025.165.0",
+            "define": "FOMOXA_STEAMWORKS_NET"
+        }
+    ],
+    "noEngineReferences": false
+}

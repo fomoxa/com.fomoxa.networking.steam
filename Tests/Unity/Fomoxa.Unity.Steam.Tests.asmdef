@@ -1,0 +1,37 @@
+{
+    "name": "Fomoxa.Unity.Steam.Tests",
+    "rootNamespace": "Fomoxa.Unity.Steam.Tests",
+    "references": [
+        "Fomoxa.Unity.Steam",
+        "Fomoxa.Networking.Steam",
+        "Fomoxa.Unity",
+        "Fomoxa.Networking",
+        "com.rlabrecque.steamworks.net",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Fomoxa.Net.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "FOMOXA_STEAMWORKS_NET",
+        "UNITY_STANDALONE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.rlabrecque.steamworks.net",
+            "expression": "2025.165.0",
+            "define": "FOMOXA_STEAMWORKS_NET"
+        }
+    ],
+    "noEngineReferences": false
+}
