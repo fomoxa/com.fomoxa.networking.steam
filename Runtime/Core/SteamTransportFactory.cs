@@ -12,7 +12,13 @@ namespace Fomoxa.Networking.Steam
         private readonly SteamConnections connections;
 
         public SteamTransportFactory(ISteamSockets sockets)
+            : this(sockets, NetworkRuntime.Version)
         {
+        }
+
+        internal SteamTransportFactory(ISteamSockets sockets, string projectCore)
+        {
+            SteamPackage.CheckCore(projectCore);
             connections = new SteamConnections(sockets);
         }
 
