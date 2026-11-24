@@ -28,7 +28,7 @@ namespace Fomoxa.Networking.Steam.Tests
         {
             var thrown = Assert.Throws<InvalidOperationException>(() => SteamPackage.CheckCore("0.3.3"));
 
-            Assert.That(thrown.Message, Is.EqualTo("com.fomoxa.networking.steam needs com.fomoxa.networking 0.3.5; the project has 0.3.3"));
+            Assert.That(thrown.Message, Is.EqualTo("com.fomoxa.networking.steam needs com.fomoxa.networking 0.4.0; the project has 0.3.3"));
         }
     }
 }
