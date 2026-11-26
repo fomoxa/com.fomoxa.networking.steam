@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Version | 0.1.2 |
-| Needs | `com.fomoxa.networking` 0.4.0, Steamworks.NET 2025.165.0 or later |
+| Version | 0.1.3 |
+| Needs | `com.fomoxa.networking` 0.5.0, Steamworks.NET 2025.165.0 or later |
 | Unity | 6000.5 or later |
 | Platforms | Windows, Linux and macOS standalone builds, with the Steam client |
 | License | Apache-2.0 |
@@ -21,7 +21,7 @@ https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks
 Then add this package the same way:
 
 ```
-https://github.com/fomoxa/com.fomoxa.networking.steam.git#0.1.2
+https://github.com/fomoxa/com.fomoxa.networking.steam.git#0.1.3
 ```
 
 The package does not ship Steam's libraries; Steamworks.NET brings them. `SteamNetworkTransport` compiles only when Steamworks.NET is installed and the build target is Windows, Linux or macOS.

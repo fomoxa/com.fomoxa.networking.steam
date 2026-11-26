@@ -4,7 +4,7 @@ namespace Fomoxa.Networking.Steam
 {
     public static class SteamPackage
     {
-        public const string CoreVersion = "0.4.0";
+        public const string CoreVersion = "0.5.0";
 
         internal static void CheckCore(string projectCore)
         {
