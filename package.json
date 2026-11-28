@@ -1,6 +1,6 @@
 {
   "name": "com.fomoxa.networking.steam",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "displayName": "Fomoxa Networking Steam",
   "description": "A Steam transport for com.fomoxa.networking: peer-to-peer connections through the Steam relay network, for host mode behind NAT.",
   "unity": "6000.5",
